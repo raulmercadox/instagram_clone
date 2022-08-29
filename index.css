@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    background: #ccc;
+}
+
+header, main {
+    width: 375px;
+    margin: 0 auto;
+    background: white;
+}
+
+.header {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #C6C6C6;
+}
+
+.logo {
+    width: 127px;
+}
+
+.avatar, .author-img {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.author {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.author p {
+    margin:0;
+}
+
+.author-info {
+    margin-left: 10px;
+}
+
+.author-name {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.author-location {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.post-photo {
+    max-width: 100%;
+}
+
+.comments {
+    padding: 19px;
+}
+
+.icons, .likes, .text {
+    margin-bottom: 16px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon-comment {
+    width: 24px;
+    margin-right: 16px;
+}
+
+.likes {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.text {
+    font-size: 13px;    
+}
+
+.text strong {
+    font-weight: 700;
+    line-height: 16px;
+}
